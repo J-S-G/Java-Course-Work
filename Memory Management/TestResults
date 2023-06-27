@@ -1,0 +1,78 @@
+Experiment #1
+Count           Transactions
+
+100       
+
+run:
+
+Enter initial ArrayList size: 100
+Enter number of ArrayList adds: 100
+  Adding elements to ArrayList...done.
+  Writing to each element...Number of transactions: 450
+done.
+  Doing 100 additions at the end...done.
+Number of transactions: 1450
+  Doing 100 additions at index 0...done.
+Number of transactions: 27400
+  Doing 100 removes...done.
+Number of transactions: 24950
+BUILD SUCCESSFUL (total time: 7 seconds)
+      
+1000
+
+run:
+
+Enter initial ArrayList size: 100
+Enter number of ArrayList adds: 1000
+  Adding elements to ArrayList...done.
+  Writing to each element...Number of transactions: 450
+done.
+  Doing 1000 additions at the end...done.
+Number of transactions: 59500
+  Doing 1000 additions at index 0...done.
+Number of transactions: 1759000
+  Doing 1000 removes...done.
+Number of transactions: 1599500
+BUILD SUCCESSFUL (total time: 10 seconds)
+
+
+10000
+
+run:
+
+Enter initial ArrayList size: 100
+Enter number of ArrayList adds: 10000
+  Adding elements to ArrayList...done.
+  Writing to each element...Number of transactions: 450
+done.
+  Doing 10000 additions at the end...done.
+Number of transactions: 5095000
+  Doing 10000 additions at index 0...done.
+Number of transactions: 166090000
+  Doing 10000 removes...done.
+Number of transactions: 150995000
+BUILD SUCCESSFUL (total time: 8 seconds)
+
+100000
+
+run:
+
+Enter initial ArrayList size: 100
+Enter number of ArrayList adds: 100000
+  Adding elements to ArrayList...done.
+  Writing to each element...Number of transactions: 450
+done.
+  Doing 100000 additions at the end...done.
+Number of transactions: 500950000
+  Doing 100000 additions at index 0...done.
+Number of transactions: 16510900000
+  Doing 100000 removes...done.
+Number of transactions: 15009950000
+BUILD SUCCESSFUL (total time: 14 seconds)
+
+Exponential Growth is bad because of the increasing amount of transactions 
+
+100     27400 
+1000    1759000
+10000   166090000
+100000  16510900000

@@ -1,0 +1,73 @@
+
+Experiment #2
+Count           Transactions
+
+100:       
+
+Enter initial ArrayList size: 100
+Enter number of ArrayList adds: 100
+  Adding elements to ArrayList...done.
+Number of actions: 303
+  Writing to each element...Number of transactions: 5050
+done.
+  Doing 100 additions at the end...done.
+Number of transactions: 300
+  Doing 100 additions at index 0...done.
+Number of transactions: 0
+  Doing 100 removes...done.
+Number of actions: 300
+      
+1000:
+
+Enter initial ArrayList size: 100
+Enter number of ArrayList adds: 1000
+  Adding elements to ArrayList...done.
+Number of actions: 303
+  Writing to each element...Number of transactions: 5050
+done.
+  Doing 1000 additions at the end...done.
+Number of transactions: 3000
+  Doing 1000 additions at index 0...done.
+Number of transactions: 0
+  Doing 1000 removes...done.
+Number of actions: 3000
+
+10000:
+
+
+Enter initial ArrayList size: 100
+Enter number of ArrayList adds: 10000
+  Adding elements to ArrayList...done.
+Number of actions: 303
+  Writing to each element...Number of transactions: 5050
+done.
+  Doing 10000 additions at the end...done.
+Number of transactions: 30000
+  Doing 10000 additions at index 0...done.
+Number of transactions: 0
+  Doing 10000 removes...done.
+Number of actions: 30000
+
+100000:
+
+
+Enter initial ArrayList size: 100
+Enter number of ArrayList adds: 100000
+  Adding elements to ArrayList...done.
+Number of actions: 303
+  Writing to each element...Number of transactions: 5050
+done.
+  Doing 100000 additions at the end...done.
+Number of transactions: 300000
+  Doing 100000 additions at index 0...done.
+Number of transactions: 0
+  Doing 100000 removes...done.
+Number of actions: 300000
+
+
+Linear Growth is good because of the non-exponential amount of transactions 
+
+100      300
+1000     3000
+10000    30000
+100000   300000
